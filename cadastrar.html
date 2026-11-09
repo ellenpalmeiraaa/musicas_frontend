@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar música</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="cadastrar.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><i class="fa-solid fa-arrow-left"></i> Voltar para a lista</a>
+        <h1><i class="fa-solid fa-record-vinyl"></i> Cadastrar música</h1>
+    </header>
+
+    <main>
+        <label for="titulo"><i class="fa-solid fa-star"></i> Título</label>
+        <input type="text" id="titulo">
+
+        <label for="artista"><i class="fa-solid fa-microphone-lines"></i> Artista</label>
+        <input type="text" id="artista">
+
+        <label for="genero"><i class="fa-solid fa-guitar"></i> Gênero</label>
+        <input type="text" id="genero">
+
+        <label for="ano"><i class="fa-regular fa-calendar-days"></i> Ano</label>
+        <input type="number" id="ano">
+
+        <label for="duracao"><i class="fa-regular fa-clock"></i> Duração em minutos</label>
+        <input type="number" id="duracao">
+
+        <button id="botaoCadastrar"><i class="fa-solid fa-check"></i> Cadastrar</button>
+    </main>
+
+    <script src="cadastrar.js"></script>
+</body>
+</html>
